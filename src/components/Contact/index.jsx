@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { BsFileEarmarkPdf, BsGithub } from "react-icons/bs";
 import { FiTwitter } from "react-icons/fi";
 import { AiOutlineInstagram } from "react-icons/ai";
-import resume from "../../assets/file/resume.pdf";
+import resume from "../../assets/file/Samarth-Resume.pdf";
 
 const Contact = () => {
   useEffect(() => {
@@ -63,25 +63,25 @@ const Contact = () => {
         </h1>
 
         <p className="text-white/50  cursor-default font-Glimer-Light sm:mt-10 mt-8 xl:text-xl xl:max-w-2xl text-base sm:text-lg  1/2xl:text-2xl 1/2xl:max-w-4xl 2xl:text-3xl 2xl:max-w-5xl leading-6">
-          I'm not really active on{" "}
+          I'm really active on{" "}
           <a
-            href="https://linkedin.com/in/tarunfy/"
+            href="https://linkedin.com/in/samarth-dadhaniya"
             target="_blank"
             className="text-white font-Glimer-Medium"
           >
             Linkedin
           </a>{" "}
-          but you can stay in touch with me on{" "}
+          but you can also stay in touch with me on{" "}
           <a
-            href="https://twitter.com/tarunfy"
+            href="https://x.com/SAMARTH_14_1"
             target="_blank"
             className="text-white font-Glimer-Medium"
           >
-            Twitter
+            X (twitter)
           </a>
           . Sometimes I blog about some of my work on{" "}
           <a
-            href="https://dev.to/tarunfy"
+            href="https://dev.to/samarth14"
             target="_blank"
             className="text-white font-Glimer-Medium"
           >
@@ -89,7 +89,7 @@ const Contact = () => {
           </a>{" "}
           and some experiments on{" "}
           <a
-            href="https://instagram.com/tarunfy"
+            href="https://instagram.com/"
             target="_blank"
             className="text-white font-Glimer-Medium"
           >
@@ -111,21 +111,21 @@ const Contact = () => {
       <div className="flex flex-col py-2 mb-5 w-full space-y-6 items-center justify-center">
         <div className="divide-x divide-solid divide-white/50 grid grid-cols-3 w-full">
           <a
-            href="https://instagram.com/tarunfy"
+            href="https://instagram.com/"
             target="_blank"
             className="flex items-center justify-center flex-col text-lg text-white"
           >
             <AiOutlineInstagram className="social-icon h-7 w-7 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10" />
           </a>
           <a
-            href="https://github.com/tarunfy"
+            href="https://github.com/samarthdadhaniya"
             target="_blank"
             className="flex items-center justify-center flex-col text-lg text-white"
           >
             <BsGithub className="social-icon h-7 w-7 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10" />
           </a>
           <a
-            href="https://twitter.com/tarunfy"
+            href="https://x.com/SAMARTH_14_1"
             target="_blank"
             className="flex items-center justify-center flex-col text-lg text-white"
           >
