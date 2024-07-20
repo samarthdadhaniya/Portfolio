@@ -1,10 +1,8 @@
 import { useEffect } from "react";
-import hirely from "../../assets/images/Hirely.png";
-import easyStaff from "../../assets/images/EasyStaff.png";
-import formify from "../../assets/images/Formify.png";
-import bloggy from "../../assets/images/Bloggy.png";
-import planitio from "../../assets/images/Planitio.png";
-import learningCafe from "../../assets/images/LearningCafe.png";
+import hirely from "../../assets/images/site-demo-image.png";
+import easyStaff from "../../assets/images/NOC.png";
+import formify from "../../assets/images/helloween.png";
+import learningCafe from "../../assets/images/storm-img.png";
 import { BsGithub, BsArrowRight } from "react-icons/bs";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -137,19 +135,19 @@ const Projects = () => {
           <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3">
             <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
               <div className="content-line flex lg:justify-end items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden bg-[#420fe7] ">
-                <div className="content-line-inner">Learning Cafe</div>
+                <div className="content-line-inner">Strom.io</div>
               </div>
             </h1>
             <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl  sm:text-xl 2xl:text-3xl vvs:text-base text-sm lg:text-right">
-              A platform for posting courses which are designed as per the
-              Industry demand with full Career Assistance.
+              Strom website is strees free ad compain manager,
+              Start Your AD's with us.
             </p>
             <div className="btn-row flex justify-start space-x-6 items-center lg:justify-end">
               <div className="github-btn">
                 <a
                   className="icon "
                   target="_blank"
-                  href="https://github.com/tarunfy/learningcafe"
+                  href="https://github.com/"
                 >
                   <BsGithub className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out repo text-white/90 hover:text-white" />
                 </a>
@@ -158,7 +156,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
-                  href="https://learningcafe.co.in/"
+                  href="https://github.com/"
                 >
                   <BsArrowRight className="link lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-rotate-[45deg] hover:text-white transition duration-200 ease-in-out text-white/90" />
                 </a>
@@ -172,19 +170,19 @@ const Projects = () => {
           <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3 ">
             <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
               <div className="content-line flex items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden bg-[#420fe7]">
-                <div className="content-line-inner">Hirely</div>
+                <div className="content-line-inner">CRUD Operation</div>
               </div>
             </h1>
             <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl sm:text-xl 2xl:text-3xl vvs:text-base text-sm">
-              Hirely is a platform where candidates can get hired by the
-              recruiters from different upcoming starups.
+            CRUD operation in LocalStorage with search and sort functionality. 
+            It is a JavaScript program that allows users to CRUD items from a productList stored in LocalStorage.
             </p>
             <div className="btn-row flex justify-start space-x-6 items-center">
               <div className="github-btn">
                 <a
                   className="icon "
                   target="_blank"
-                  href="https://github.com/tarunfy/Hirely"
+                  href="https://github.com/"
                 >
                   <BsGithub className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out repo text-white/90 hover:text-white" />
                 </a>
@@ -193,7 +191,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
-                  href="https://hirely.vercel.app/"
+                  href="https://github.com/"
                 >
                   <BsArrowRight className="link lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-rotate-[45deg] hover:text-white transition duration-200 ease-in-out text-white/90" />
                 </a>
@@ -225,19 +223,19 @@ const Projects = () => {
           <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3">
             <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
               <div className="content-line flex lg:justify-end items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden bg-[#420fe7] ">
-                <div className="content-line-inner">Formify</div>
+                <div className="content-line-inner">Halloween Website</div>
               </div>
             </h1>
             <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl  sm:text-xl 2xl:text-3xl vvs:text-base text-sm lg:text-right">
-              The fastest and the easiest way to create forms and collect
-              submissions on the internet.
+              Responsive Halloween Website, It has the best color contrast.
+              A Beautiful and simple user interface.
             </p>
             <div className="btn-row flex justify-start space-x-6 items-center lg:justify-end">
               <div className="github-btn">
                 <a
                   className="icon "
                   target="_blank"
-                  href="https://github.com/tarunfy/formify"
+                  href="https://github.com/"
                 >
                   <BsGithub className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out repo text-white/90 hover:text-white" />
                 </a>
@@ -246,7 +244,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
-                  href="https://formifyy.vercel.app/"
+                  href="https://github.com/"
                 >
                   <BsArrowRight className="link lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-rotate-[45deg] hover:text-white transition duration-200 ease-in-out text-white/90" />
                 </a>
@@ -260,19 +258,19 @@ const Projects = () => {
           <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3 ">
             <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
               <div className="content-line flex items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden bg-[#420fe7]">
-                <div className="content-line-inner">Easy Staff</div>
+                <div className="content-line-inner">NOC Latter Generator</div>
               </div>
             </h1>
             <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl  sm:text-xl 2xl:text-3xl vvs:text-base text-sm">
-              Easy Staff allows you to manage your staff's attendance, salary
-              and payments in few clicks.
+              The plateform Where User can generate NOC Latter.
+              and also great website where we manage more User.
             </p>
             <div className="btn-row flex justify-start space-x-6 items-center">
               <div className="github-btn">
                 <a
                   className="icon "
                   target="_blank"
-                  href="https://github.com/tarunfy/EasyStaff"
+                  href="https://github.com/"
                 >
                   <BsGithub className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out repo text-white/90 hover:text-white" />
                 </a>
@@ -281,7 +279,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
-                  href="https://tankhava-book.vercel.app/"
+                  href="https://github.com/"
                 >
                   <BsArrowRight className="link lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-rotate-[45deg] hover:text-white transition duration-200 ease-in-out text-white/90" />
                 </a>
@@ -298,96 +296,8 @@ const Projects = () => {
             <div className="img-container absolute top-0 left-0 bg-[#420fe7] w-full h-full"></div>
           </div>
         </div>
-
-        {/* Planitio */}
-        <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
-          <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
-            <img
-              src={planitio}
-              alt="project image"
-              className="absolute w-full object-cover h-full img"
-            />
-            <div className="img-container absolute top-0 right-0 bg-[#420fe7] w-full h-full"></div>
-          </div>
-
-          <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3">
-            <h1 className="hidden-text cursor-default font-Glimer-Bold font-bold lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
-              <div className="content-line flex lg:justify-end items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden bg-[#420fe7] ">
-                <div className="content-line-inner">Planit.io</div>
-              </div>
-            </h1>
-            <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl sm:text-xl 2xl:text-3xl vvs:text-base text-sm lg:text-right">
-              Now no more going back-n-forth in conducting meetings, Planit.io
-              makes it easy and elegant to schedule meetings.
-            </p>
-            <div className="btn-row flex justify-start space-x-6 items-center lg:justify-end">
-              <div className="github-btn">
-                <a
-                  className="icon "
-                  target="_blank"
-                  href="https://github.com/tarunfy/Planit.io"
-                >
-                  <BsGithub className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out repo text-white/90 hover:text-white" />
-                </a>
-              </div>
-              <div className="liveDemo-btn">
-                <a
-                  className="icon"
-                  target="_blank"
-                  href="https://planitio.vercel.app/"
-                >
-                  <BsArrowRight className="link lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-rotate-[45deg] hover:text-white transition duration-200 ease-in-out text-white/90" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Bloggy */}
-        <div className="container lg:space-x-2 flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center items-start invisible">
-          <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3 ">
-            <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
-              <div className="content-line flex items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden bg-[#420fe7]">
-                <div className="content-line-inner">Bloggy</div>
-              </div>
-            </h1>
-            <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl  sm:text-xl 2xl:text-3xl vvs:text-base text-sm">
-              A constructive and inclusive social network for software
-              developers.
-            </p>
-            <div className="btn-row flex justify-start space-x-6 items-center">
-              <div className="github-btn">
-                <a
-                  className="icon "
-                  target="_blank"
-                  href="https://github.com/tarunfy/Bloggy"
-                >
-                  <BsGithub className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out repo text-white/90 hover:text-white" />
-                </a>
-              </div>
-              <div className="liveDemo-btn">
-                <a
-                  className="icon"
-                  target="_blank"
-                  href="https://bloggyy.vercel.app/"
-                >
-                  <BsArrowRight className="link lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-rotate-[45deg] hover:text-white transition duration-200 ease-in-out text-white/90" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
-            <img
-              src={bloggy}
-              alt="project image"
-              className="absolute w-full object-cover h-full img"
-            />
-            <div className="img-container absolute top-0 left-0 bg-[#420fe7] w-full h-full"></div>
-          </div>
         </div>
       </div>
-    </div>
   );
 };
 
