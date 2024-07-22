@@ -6,7 +6,7 @@ import learningCafe from "../../assets/images/storm-img.png";
 import { BsGithub, BsArrowRight } from "react-icons/bs";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+ 
 gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
